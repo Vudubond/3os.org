@@ -69,7 +69,7 @@ Chances are you've opened some Finder windows in the past. Individual folder opt
 In order reset your folder settings across the entire machine we have to delete all .DS_Store files. This will ensure that all folders start fresh. Open up the Terminal application (Applications/Utilities/Terminal), and type:
 
 ```bash
-sudo find / -name .DS_Store -delete; killall Finder
+sudo find / -name .DS_Store -delete 2>/dev/null ; killall Finder
 ```
 
 `Note: In the future, whenever you switch views, it will automatically save in the new .DS_Store file. This will override the default settings.`
