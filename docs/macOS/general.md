@@ -10,11 +10,15 @@ This section is intended to provide usefully tweaks and guides for better experi
    <img src="/assets/images/macOS/macosWall.jpg" alt="mac image">
 </div>
 
+## What apps works and what doesn't at M1 Silicon
+
+[Is Apple silicon ready?](https://isapplesiliconready.com/){target=_blank}
+
 ## Categories
 
--   [UI Tweaks](/macOS/ui/)
--   [System Tweaks](/macOS/system/)
--   [Applications Tweaks](/macOS/applications/)
+- [UI Tweaks](/macOS/ui/)
+- [System Tweaks](/macOS/system/)
+- [Applications Tweaks](/macOS/applications/)
 
 ## HomeBrew Tips
 
