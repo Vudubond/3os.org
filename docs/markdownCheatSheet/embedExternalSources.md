@@ -26,7 +26,7 @@ Default: Width=480 Hight=270
 With Costume width=1200
 
 ```markdown
-[!embed?max_width=1200](https://www.youtube.com/watch?v=vq2jYFZVMDA)  
+[!embed?max_width=1200](https://www.youtube.com/watch?v=vq2jYFZVMDA)
 ```
 
 With Costume width=300, height=200
