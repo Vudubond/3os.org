@@ -6,6 +6,9 @@ disqus:
 
 # About 3os
 
+Your donations keeps us awake :material-coffee-outline:  
+BTC Wallet Address: 1AB2JrTyvyzhD7hA2ydZgU8Ftt8nLdezRe
+
 ## 3os is an Open Source Project
 
 Our main purpose is to provide simple knowledge base on various topics such as IT, Security, Penetration Testing, useful guides, links and tools for the vast system admins, technology enthusiasts and practically anyone who is looking for the some technical information and more. Our goal is to share useful guides, links and tools.

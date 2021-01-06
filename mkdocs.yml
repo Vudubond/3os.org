@@ -77,7 +77,6 @@ nav:
       - Metadata Per Page: markdownCheatSheet/metaData.md
   - About:
       - About: about/about.md
-      - Donation: about/donation.md
       - License: about/license.md
 
 # Project information
@@ -183,4 +182,4 @@ google_analytics:
   - 'auto'
 
 # Copyright
-copyright: 'Copyright &copy; 3os.org @2018-2020'
+copyright: 'Copyright &copy; 3os.org @2018 | Bitcoin Wallet Address: 1AB2JrTyvyzhD7hA2ydZgU8Ftt8nLdezRe'
