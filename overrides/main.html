@@ -22,9 +22,9 @@
 
       <!-- Redirect -->
       <script> 
-      if (location.hostname !== "localhost" || location.hostname !== "127.0.0.1")
-        { if (window.location.protocol !== 'https:')
-          { window.location = 'https://' + window.location.hostname + window.location.port }}
+        if (location.hostname !== "localhost" || location.hostname !== "127.0.0.1")
+          { if (window.location.protocol !== 'https:')
+            { window.location = 'https://' + window.location.hostname + window.location.port }}
       </script>
 
       {% if page and page.meta and page.meta.redirect %}
