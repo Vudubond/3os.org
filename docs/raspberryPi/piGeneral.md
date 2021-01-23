@@ -6,6 +6,26 @@ description: Raspberry Pi Tips & Tricks how to, guides, examples, and simple usa
 
 # Raspberry Pi Tips & Tricks
 
+## Enable SSH on Raspberry Pi Without a Screen
+
+Put the micro SD card into your computer 
+You'll have to locate the boot directory at your SD card
+
+for example:
+
+```bash
+cd /Volumes/boot
+```
+
+All you have to do is create an empty file called ssh.
+
+```bash
+touch ssh
+```
+
+That's it. Insert the SD card to the Pi.  
+You should have enabled SSH at boot.
+
 ## Default User and Password After Installation
 
 ```bash
