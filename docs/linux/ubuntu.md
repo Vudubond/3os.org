@@ -88,7 +88,7 @@ Example values in Debian:
 
 ```config
         "origin=Debian,codename=${distro_codename}-updates";
-//      "origin=Debian,codename=${distro_codename}-proposed-updates";
+        "origin=Debian,codename=${distro_codename}-proposed-updates";
         "origin=Debian,codename=${distro_codename},label=Debian";
         "origin=Debian,codename=${distro_codename},label=Debian-Security";
         "origin=Debian,codename=${distro_codename}-security,label=Debian-Security";
@@ -123,10 +123,10 @@ Manual Run:
 unattended-upgrade -d
 ```
 
-Enable Unattended Upgrades on Boot
+To enable unattended-upgrade use the following command:
 
 ```bash
-systemctl enable unattended-upgrade
+sudo dpkg-reconfigure --priority=low unattended-upgrades
 ```
 
 ## Clear BOOT Partition on Ubuntu when 100%
