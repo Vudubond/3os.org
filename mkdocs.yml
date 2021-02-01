@@ -53,6 +53,7 @@ nav:
       - Windows Guides and How-To: windows/windowsGuides.md
   - Penetration-Testing:
       - General: penTesting/general.md
+      - nmap Cheat Sheet: penTesting/nmapCheatSheet.md
       - Kali Linux: penTesting/kaliLinux.md
       - VMware Fusion: penTesting/vmwareFusion.md
       - IDD Generator & Validator: penTesting/iddGenerator.md
