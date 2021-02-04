@@ -51,13 +51,18 @@ Check your system time
 date
 ```
 
-## Service Status/Start/Stop/Enabling On Boot
+## Disable SSH Login Welcome Message
+
+To disable
 
 ```bash
-systemctl status httpd
-systemctl start httpd
-systemctl stop httpd
-systemctl enable httpd
+touch ~/.hushlogin
+```
+
+To re-enable
+
+```bash
+rm -rf ~/.hushlogin
 ```
 
 ## Run Script On Boot - Crontab
